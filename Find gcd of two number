@@ -1,0 +1,4 @@
+import math
+a=int(input("enter ur 1st number"))
+b=int(input("enter ur 2nd number"))
+print( math.gcd(a,b))
