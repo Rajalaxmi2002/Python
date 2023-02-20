@@ -1,0 +1,4 @@
+n=int(input("enter your number:"))
+n=str(n)
+a=int(n)+int(n+n)+int(n+n+n)
+print(int(a))
