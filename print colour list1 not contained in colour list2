@@ -1,0 +1,3 @@
+colour1=set(['blue','indigo','pink','black','white'])
+colour2=set(['violet','sky','pink','black','yellow'])
+print(colour1.difference(colour2))
