@@ -1,0 +1,11 @@
+ln=int(input("enter your length: "))
+bh=int(input("enter your breadth: "))
+rectangle_area=lambda ln,bh:ln*bh
+print("area of rectangle is: ",rectangle_area(ln,bh))
+a=int(input("enter your number of side: "))
+square_area=lambda a:a*a
+print("the square of area: ",square_area(a))
+b=int(input("enter your base:"))
+h=int(input("enter your height: "))
+triangle_area=lambda b,h:(b*h)/2
+print("the area of triangle is:",triangle_area(b,h))
