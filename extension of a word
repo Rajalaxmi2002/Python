@@ -1,0 +1,3 @@
+a=input("Enter the word")
+n=a.split(".")
+print(n[-1])
