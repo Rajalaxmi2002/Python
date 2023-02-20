@@ -1,0 +1,5 @@
+d={'nine':9,'eight':8,'seven':7,'six':6,'two':2}
+a=sorted(d.items(),key=lambda x:x[1])
+b=sorted(d.items(),key=lambda x:x[1],reverse=True)
+print(a)
+print(b)
