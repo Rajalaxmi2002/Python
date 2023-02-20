@@ -1,0 +1,4 @@
+x=eval(input("enter your number:  "))
+for i in x:
+    if i>=0:
+        print("the positive number is: ",i)
