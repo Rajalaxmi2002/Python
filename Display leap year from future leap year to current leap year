@@ -1,0 +1,5 @@
+y1=int(input("enter your  starting year: "))
+y2=int(input("enter your  ending year:  "))
+for i in range(y1,y2):
+    if(i%4==0 and i%100!=0 or i%400==0):
+        print("leap year of {}to{}: ".format(y1,y2),i)
