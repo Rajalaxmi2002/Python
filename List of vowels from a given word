@@ -1,0 +1,7 @@
+def vowels(string,vowel):
+    final=[each for each in string if each in vowel]
+    print(len(final))
+    print(final)
+string=input("enter your string: ")
+vowel='AaEeIiOoUu'
+vowels(string,vowel)
