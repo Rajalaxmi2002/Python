@@ -1,0 +1,5 @@
+list=['radha','tanisha','ruchi','priyanka','fali' ]
+total=0
+for i in list:
+    total=total+i.count('a')
+print(total)
