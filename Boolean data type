@@ -1,0 +1,33 @@
+# ->1
+b=True
+type(b)
+output->bool
+
+#2->
+a=10
+b=60
+c=a>b
+print(c)
+output->False
+
+
+# 3->
+print(True+True)
+output->2
+
+
+# 4->
+print(True-True)
+output->0
+
+# 5->
+print(False+False)
+ouput->0
+
+#6->
+print(True*True)
+ouput->1
+
+# 7->
+print(True*False)
+output->0
