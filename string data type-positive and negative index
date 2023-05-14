@@ -1,0 +1,33 @@
+1--->
+r="durga"
+print(r[0])
+
+output--> d
+
+
+2-->
+r='durga'
+print(r[4])
+
+output--> a
+
+
+3-->
+r="durga"
+print(r[-2])
+
+output--> g
+
+
+4-->
+r="durga"
+print(r[-5])
+
+output--> d
+
+
+5-->
+r='i "am" a good girl'
+print(r[3])
+
+output--> a
