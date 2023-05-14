@@ -1,0 +1,63 @@
+1--->
+t='raj'
+print(type(t))
+
+output->>  <class 'str'>
+
+
+2---->
+a="raj"
+print(type(a))
+
+output->> <class 'str'>
+
+
+3---->
+a='''raj'''
+print(type(a))
+
+output--> <class 'str'>
+
+4--->
+a='''i
+am
+a
+good girl'''
+print(a)
+
+output--> i
+am
+a
+good girl
+
+
+5--->
+a="""i
+am
+a
+good girl"""
+print(a)
+
+output--> i
+am
+a
+good girl
+
+
+6--->
+r='"rajalaxmi" is a good girl'
+print(r)
+
+output--> "rajalaxmi" is a good girl
+
+7--->
+r="'rajalaxmi' is a good girl"
+print(r)
+
+output--> 'rajalaxmi' is a good girl
+
+8--->
+r='''"rajalaxmi" is a 'good' girl'''
+print(r)
+
+output--> "rajalaxmi" is a 'good' girl
