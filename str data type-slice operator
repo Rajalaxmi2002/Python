@@ -1,0 +1,26 @@
+1-->
+s='abcdefghijklmnopqrstuvwxyz'
+s[3:9]
+
+output--> 'defghi'
+
+
+2-->
+s='abcdefghijklmnopqrstuvwxyz'
+s[3:1]
+
+output--> ''
+
+
+3--->
+s='abcdefghijklmnopqrstuvwxyz'
+s[3:]
+
+output--> 'defghijklmnopqrstuvwxyz'
+
+
+5-->
+s='abcdefghijklmnopqrstuvwxyz'
+s[:]
+
+output--> 'abcdefghijklmnopqrstuvwxyz'
