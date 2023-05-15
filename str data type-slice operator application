@@ -1,0 +1,25 @@
+1-->
+#output should be Durga
+s="durga"
+output=s[0].upper()+s[1:len(s)]
+print(output)
+
+output--> Durga
+
+
+2---->
+#output should be durgA
+s="durga"
+output=s[0:]+s[-1].upper()
+print(output)
+
+output-->durgaA
+
+
+3-->
+#output should be DurgA
+s="durga"
+output=s[0].upper()+s[1:len(s)-1]+s[-1].upper()
+print(output)
+
+output-->DurgA
