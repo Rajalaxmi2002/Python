@@ -1,0 +1,28 @@
+#TO CONVERT OTHER TYPES TO INT TYPE :-
+
+#A-->FLOAT->INT
+int(10.89)
+
+output-->10
+
+
+#B->COMPLEX->INT
+int(10+20j)
+
+output-> TypeError: can't convert complex to int
+
+
+#C-> BOOL->INT
+print(int(True))
+print(int(False))
+
+output->
+1
+0
+
+
+#D->STR->INT
+num='10'
+print(type(num))
+
+output->  <class 'str'>
