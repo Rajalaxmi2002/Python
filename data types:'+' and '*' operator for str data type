@@ -1,0 +1,31 @@
+1--->
+# '+' operator:
+s='durga'+' '+'software'
+print(s)
+
+output--> durga software
+
+
+2--->
+# '*' operator:
+s="durga "*3
+print(s)
+
+output-->durga durga durga 
+
+
+3--->
+print(5*'rajlaxmi  ')
+
+output--> rajlaxmi  rajlaxmi  rajlaxmi  rajlaxmi  rajlaxmi  
+
+
+4--->
+print(28*"# ")
+print(5*"rajalaxmi  ")
+print(28*"# ")
+
+output-->
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+rajalaxmi  rajalaxmi  rajalaxmi  rajalaxmi  rajalaxmi  
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # 
