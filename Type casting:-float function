@@ -1,0 +1,36 @@
+# TO CONVERT FROM OTHER TYPES TO FLOAT TYPES:-
+
+
+# A--> (INT-->FLOAT)
+
+# 1.
+float(10)
+output:-  10.0
+
+ # 2.
+float(0b1111)
+output:- 15.0
+
+# 3.
+float(0xface)
+output:- 64206.0
+
+# B--> (bool-->float)
+
+# 1.
+float(True)
+output:-1.0
+
+# 2.
+float(False)
+output:- 0.0
+
+# c--> (complex-->float)
+
+float(10+20j)
+output:-can't convert complex to float
+
+# d--> (str-->float)
+
+float('10.5')
+output:-10.5
