@@ -1,0 +1,28 @@
+# BOOL ARGUMENT:-
+#--> IF THE  ARGUMENT IS ZERO THEN THE OUTPUT IS FALSE
+#--> IF THE ARGUMENT IS ONE THEN THE OUTPUT IS TRUE
+
+# 1--> bool->int
+
+bool(10)
+OUTPUT:-True
+
+bool(0)
+OUTPUT:-False
+
+bool(-10)
+OUTPUT:-True
+
+#2--> bool->float
+
+bool(10.5)
+OUTPUT:-True
+
+bool(0.0)
+OUTPUT:-False
+
+bool(0.000001)
+OUTPUT:-True
+
+bool(-10.5)
+OUTPUT:-True
