@@ -2,7 +2,7 @@
 #--> IF THE  ARGUMENT IS ZERO THEN THE OUTPUT IS FALSE
 #--> IF THE ARGUMENT IS ONE THEN THE OUTPUT IS TRUE
 
-# 1--> bool->int
+# 1--> int->bool
 
 bool(10)
 OUTPUT:-True
@@ -13,7 +13,7 @@ OUTPUT:-False
 bool(-10)
 OUTPUT:-True
 
-#2--> bool->float
+#2-->float-> bool
 
 bool(10.5)
 OUTPUT:-True
@@ -26,3 +26,35 @@ OUTPUT:-True
 
 bool(-10.5)
 OUTPUT:-True
+
+# 3-->complex->bool
+
+#->IF THE BOTH REAL AND IMAGINARY PART ARE ZERO THEN THE OUTPUT IS "FALSE" OTHERWISE "TRUE"
+
+bool(0+0j)
+output:-False
+
+bool(1+0j)
+output:-True
+
+bool(0.002+0j)
+output:-True
+
+
+#STRING ARGUMEMENT:-
+
+#->IF THE ARGUMENT IS EMPTY STRING THEN IT IS CONSIDERED AS "FALSE" OTHER WISE "TRUE"
+bool('True')
+output:-True
+
+bool('False')
+output:-True
+
+bool('yes')
+output:-True
+
+bool('no')
+output:-True
+
+bool(' ')
+output:-False
