@@ -1,0 +1,15 @@
+h=int(input("enter the number of hour"))
+i=12
+if(h<=40):
+    print(" no over time hours")
+elif(h>=40):
+    j=h-40
+    print("paid",j*i)
+
+
+output:-
+enter the number of hour45
+paid 60
+
+enter the number of hour34
+ no over time hours
